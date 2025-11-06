@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body bgcolor="orange" text="WHITE">
+    <center><H2><U>LOGIN PAGE</U></H2></center>
+
+        
+    <form input="post">
+
+<label for="date">DATE:</label>
+
+<INPUT type="date" id="date" name="date" value="date">
+    <br>
+    <br>
+        <label for="username">ENTER YOUR USERNAME:</label>
+
+
+<input type="text" pattern="[A-Z]" id="username" name="username" placeholder="Enter Your Username" autofocus >
+
+<BR>
+<DIV><br>GENDER:</DIV>
+
+
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">MALE</label>
+<BR>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">FEMALE</label>
+
+<DIV>
+    <label for="email">E-MAIL:</label>
+<input type="email" id="email" name="email" placeholder="example@gmail.com"
+
+</DIV>
+
+<DIV>
+    <label for="telephone">TELEPHONE:</label>
+<input type="telephone" id="telephone" name="telephone" placeholder="PHONE NUMBER">
+
+</DIV>
+
+<DIV>
+<BR>
+<input type="checkbox" id="12th Pass" name="12th Pass" value="yes">
+<label for="12th Pass"> 12th PASS</label>
+</DIV>
+
+<DIV>
+    <BR>
+<select>
+<OPTION value="ENGLISH">ENGLISH</OPTION>
+<OPTION value="HINDI">HINDI</OPTION>
+<option value="URDU">URDU</option>
+<OPTION value="OTHER">OTHER</OPTION>
+</select>
+   </DIV>
+
+   <BR>
+   <label for="comment">WRITE YOUR ESSAY</label>
+
+<BR>
+    <textarea name="comment" rows="5" cols="50" id="comment" placeholder="WRITE DOWN HERE"></textarea>
+
+    <br>
+    <label for="range">RANGE OF WORDS:</label>
+<input type="range" id="range" name="range" placeholder="range">
+    
+<DIV>
+    <br>
+    <label for="password">PASSWORD:</label>
+<INPUT type="password" id="password" name="password" required>
+</DIV>
+    </form>
+<BR> <BR>
+<CENTER> <input type="button" value="SUBMIT"></CENTER>
+
+<input type="reset" value="RESET">
+</body>
+</html>
